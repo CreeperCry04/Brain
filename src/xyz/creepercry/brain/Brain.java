@@ -114,6 +114,6 @@ public class Brain {
 	}
 	
 	public File getDataFile(String fileName) {
-		return new File(System.getProperty("user.dir") + File.separator + "src" + File.separator + "data" + File.separator + fileName);
+		return new File(System.getProperty("user.dir") + File.separator + "src" + File.separator + "data", fileName);
 	}
 }
